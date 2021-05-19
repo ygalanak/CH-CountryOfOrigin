@@ -7,8 +7,8 @@ Using the [basic Companies House data](http://download.companieshouse.gov.uk/en_
 ## Files
 The directory contains:
 
--   [:file\_folder: paper](/analysis/paper):
+-   [:file\_folder: data](/data):
 
 
 ## Code
-The code uses only R.
+The code uses only **R**.
