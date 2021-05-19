@@ -7,8 +7,9 @@ Using the [basic Companies House data](http://download.companieshouse.gov.uk/en_
 ## Files
 The directory contains:
 
--   [:file\_folder: data/input](/data/input): `input` includes the conversion between postcode areas (first one or two letters) and countries in the UK. `outuput` includes the resulting `.csv` file of registrations by country of origin *since January 2019*. 
--   
+-   [:file\_folder: data/input](/data/input): includes the conversion between postcode areas (first one or two letters) and countries in the UK. 
+-   [:file\_folder: data/output](/data/output): includes the resulting `.csv` file of registrations by country of origin *since January 2019*. 
+-   `sunburst.html`: resulting sunburst graph in `.html` format.
 
 
 ## Code
