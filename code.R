@@ -40,7 +40,7 @@ n_incorpC$Country <- str_to_title(n_incorpC$CountryOfOrigin)
 n_incorpC <- aggregate(n_incorpC$n, by = list(n_incorpC$Country), FUN="sum")
 n_incorpC <- n_incorpC %>% rename(Country = Group.1)
 # if no name of country, assign NA and drop it.
-n_incorpC$Country[n_incorpChina$Country==" "] <- NA
+n_incorpC$Country[n_incorpC$Country==" "] <- NA
 n_incorpC <- n_incorpC %>% drop_na(Country)
 
 nonUK <- plot_ly(alpha = 0.5, n_incorpC, labels = ~Country, values = ~x,
